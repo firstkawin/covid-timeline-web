@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.css';
+
+body {
+  background: #012d5e;
+  color: white;
+}
+
+.timeline-container .ant-form-item-label > label {
+  font-size: large;
+  color: white;
+}
+
+.ant-timeline.ant-timeline-label .ant-timeline-item-label {
+  color: #ffc107 !important;
+}
+
+.ant-timeline-item-head {
+  background-color: #ffc107 !important;
+  border-color: #ffc107;
+}
+
+.ant-timeline-item {
+  margin-left: -50%;
+  font-size: 1.5em !important;
+}
