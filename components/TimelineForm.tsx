@@ -86,7 +86,6 @@ const TimelineForm = ({ name, callback }: TimelineFormProps) => {
   }
 
   function onDateChange(date: any) {
-    console.log(moment(date).hour());
     let hours = moment(date).hour() - 1;
     let minutes = moment(date).minute();
     const disableHours = [];
